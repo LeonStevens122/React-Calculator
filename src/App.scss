@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #563891;
+}
+
+.container {
+    max-width: 300px;
+    margin: 59px auto 0 auto;
+    -webkit-box-shadow: 6px 4px 43px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 6px 4px 43px -4px rgba(0,0,0,1);
+    box-shadow: 6px 4px 43px -4px rgba(0,0,0,.8);
+    background-color: #563891;
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: right;
+    font-size: 3rem;
+    color: #392B58;
+    text-shadow: 1px 1px 1px;
+    font-weight: lighter ;
+}
+
+.display {
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    background-color: #8E89B7;
+    -webkit-box-shadow: inset 6px 4px 58px -25px rgba(0,0,0,1);
+    -moz-box-shadow: inset 6px 4px 58px -25px rgba(0,0,0,1);
+    box-shadow: inset 6px 4px 58px -25px rgba(0,0,0,1);
+    overflow: hidden;
+    display: grid;
+    align-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.buttons {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.left, rigth {
+    display: inline-block;
+}
+
+.left {
+    width: 75%;
+}
+
+.rigth {
+    width: 25%;
+    float: right;
+}
+
+.buttons-key {
+    background-color: #392B58;
+    width: 100%;
+}
+
+
+.button {
+    width: 75px;
+    height: 75px;
+    padding: 20px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.5rem;
+    -webkit-box-shadow: inset 6px 4px 58px -25px rgba(0,0,0,1);
+    -moz-box-shadow: inset 6px 4px 58px -25px rgba(0,0,0,1);
+    box-shadow: inset 6px 4px 58px -25px rgba(0,0,0,1);
+    border-radius: 1px;
+}
+
+.btnrg {
+    background-color: #392B58;
+    border: 1px solid transparent;
+    color: white;
+    border-top: 1px solid transparent;
+}
+
+    .btnrg:hover {
+        background-color: black;
+    }
+
+.slash, .multi, .minus, .plus, .ce {
+    background-color: #EDEBEF;
+    border: 1px solid transparent;
+    width: 75px;
+    height: 60px;
+    padding: 0;
+}
+
+    .slash:hover, .multi:hover, .minus:hover, .plus:hover, .ce:hover {
+        background-color: #A292C3;
+    }
+

@@ -1,0 +1,120 @@
+* {
+  /* set padding and margins for page */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+
+}
+
+body {
+    /* set background image to linear gradient */ 
+    background-image: linear-gradient(to bottom right, #563891, #ffff);
+
+   
+
+  /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+/* create container for the Calculator to appear in */ 
+.container {
+    max-width: 340px;
+    margin: 59px auto 0 auto;
+    -webkit-box-shadow: 6px 4px 43px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 6px 4px 43px -4px rgba(0,0,0,1);
+    box-shadow: 6px 4px 43px -4px rgba(0,0,0,.8);
+    background-color: #563891;
+    border-radius: 20px;
+}
+
+/* set stylinf for the h2 elements */
+h2 {
+    text-align: right;
+    font-size: 3rem;
+    color: #392B5f;
+    text-shadow: 1px 1px 1px;
+    font-weight: lighter ;
+}
+/* set styling for the element  that is used as the display of the calculator */ 
+.display {
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    background-color: white;
+    -webkit-box-shadow: inset 6px 4px 58px -25px rgba(0,0,0,1);
+    -moz-box-shadow: inset 6px 4px 58px -25px rgba(0,0,0,1);
+    box-shadow: inset 6px 4px 58px -25px rgba(0,0,0,1);
+    overflow: hidden;
+    display: grid;
+    align-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* set styling for the button elements */ 
+.buttons {
+    width: 100%;
+    margin: 2px auto;
+}
+/* set styling for the left & right classes used to display the buttons */ 
+.left, rigth {
+    display: inline-block;
+}
+
+ /* set lefhand width to allow the buttons to take up majority of the element */
+.left {
+    width: 75%;
+}
+/* other portion of the element reserved for the other buttons*/ 
+.rigth {
+    width: 25%;
+    float: right;
+}
+
+/* styling for the buttons */ 
+.buttons-key {
+    background-color: #392B58;
+    width: 100%;
+}
+
+/* styling for the buttons */ 
+.button {
+    width: 75px;
+    height: 75px;
+    padding: 20px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.5rem;
+    -webkit-box-shadow: inset 6px 4px 58px -25px rgba(0,0,0,1);
+    -moz-box-shadow: inset 6px 4px 58px -25px rgba(0,0,0,1);
+    box-shadow: inset 6px 4px 58px -25px rgba(0,0,0,1);
+    border-radius: 1px;
+}
+/* styling for the buttons */ 
+.btnrg {
+    background-color: #392B58;
+    border: 1px solid transparent;
+    color: white;
+    border-top: 1px solid transparent;
+}
+/* buttons change color on hover */ 
+    .btnrg:hover {
+        background-color: black;
+    }
+    /* styling for the math symbol buttons  */ 
+.slash, .multi, .minus, .plus, .ce {
+    background-color: #EDEBEF;
+    border: 1px solid transparent;
+    width: 75px;
+    height: 60px;
+    padding: 0;
+}
+/* hover styling for the symbols */ 
+    .slash:hover, .multi:hover, .minus:hover, .plus:hover, .ce:hover {
+        background-color: #A292C3;
+    }
+
