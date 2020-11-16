@@ -1,3 +1,8 @@
+# Calculator - React based
+## React Calculator - Runs in Browser
+
+#### This is a calculator which reads the content of the window and does mathematical calculations. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
